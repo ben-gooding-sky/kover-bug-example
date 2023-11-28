@@ -1,4 +1,4 @@
-package com.kover.bug
+package com.kover.network
 
 class DummyClass {
     fun dummyMethod() {

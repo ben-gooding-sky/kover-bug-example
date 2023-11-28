@@ -8,7 +8,7 @@ tasks.test {
 
 dependencies {
 
-//    implementation(libs.ktor) uncomment out later
+//    implementation(libs.ktor) //uncomment out later
 
     testImplementation(libs.junit5)
 }

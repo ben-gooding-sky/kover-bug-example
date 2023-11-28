@@ -10,6 +10,10 @@ android {
     kotlin {
         jvmToolchain(17)
     }
+    defaultConfig {
+        minSdk = 24
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
 }
 
 val excludes = listOf(
