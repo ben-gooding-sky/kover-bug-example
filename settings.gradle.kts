@@ -1,12 +1,6 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
+        google()
         mavenCentral()
         gradlePluginPortal()
     }
@@ -20,5 +14,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "KoverKtorBug"
-include(":app")
+include(":app", ":network", ":kover")
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
  
